@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "dormouse-detection"
+version = "0.0.1"
+description = ""
+authors = ["Fay Bennedik"]
+package-mode = false
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.6"
+requests = "^2.31.0"
+tensorflow = "^2.16.1"
+keras = "^3.3.3"
+opencv-python = "^4.10.0.82"
+matplotlib = "^3.9.0"
+pycocotools = "^2.0.7"
+selenium = "^4.21.0"
+scikit-learn = "^1.5.0"
+keras-cv = "^0.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

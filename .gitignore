@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+*.jpg
+*.png
+*.txt
+
+*.DS_Store
+*.idea
+
+plots/
+logs/
+trained_models/
+training_data/
+data_downloader/images/
+
+
