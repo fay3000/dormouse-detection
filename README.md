@@ -71,7 +71,7 @@ To view the training performance on tensorboard:
 ```bash
 tensorboard --logdir=logs/fit 
 ```
-<img src="plots/training_metrics.png" alt="Tensorboard Metrics" width="500px">
+<p align="center"><img src="plots/training_metrics.png" alt="Tensorboard Metrics" width="440px"></p>
 
 ## Inference
 For running inference on new images using a trained model:
