@@ -56,6 +56,11 @@ pip install poetry
 poetry install
 ```
 
+## Pre-trained Model
+
+In addition to training your own model using the instructions in the [Training](#training) section, a pre-trained model for those who wish to directly use it for inference without going through the training process is available.
+
+You can download the `.keras` model file from the [Releases](https://github.com/fay3000/dormouse-detection/releases) section.
 
 ## Training
 To train the model, use the main.py as the entry point:
