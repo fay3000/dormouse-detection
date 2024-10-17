@@ -19,7 +19,7 @@ dormouse-detection/
 │   ├── logger.py             # Logging
 │   ├── metrics_callback.py   # Model performance metrics computed during training
 │   ├── model.py              # Model architecture
-│   ├── training_pipeline.py  # Data preprocessing, training and evaluation
+│   ├── training_pipeline.py  # Training and evaluation
 │   ├── utils.py              # Utility functions
 ├── tests/                    # Unit testing
 ├── trained_models/           # Saved trained models
