@@ -31,8 +31,8 @@ def download_animals(species_id, species_name):
     downloader.download_images()
 
 def download_trees(species_id, species_name):
-    # For trees, alive_query must be removed from the URL for it to work
-    downloader = INaturalistDownloader(species_id=species_id, species_name=species_name)
+    # To download trees from iNaturalist, alive_only must be set to False. 
+    downloader = INaturalistDownloader(species_id=species_id, species_name=species_name, alive_only=False)
     downloader.download_images()
 
 if __name__ == '__main__':
