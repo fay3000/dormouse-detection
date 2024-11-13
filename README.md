@@ -1,9 +1,9 @@
 # Dormouse Detection
 ### Detecting Dormice with Object Detection and Transfer Learning
 
-This repository contains a machine learning pipeline for training an object detection model to identify hazel dormice in images. Additionally, the dataset is provided in `dormouse-detection/training_data` and a pre-trained model is downloadable from [Releases](https://github.com/fay3000/dormouse-detection/releases). 
+This repository contains a machine learning pipeline for training an object detection model to identify hazel dormice (Muscardinus avellanarius) in images. Additionally, the dataset is provided in `dormouse-detection/training_data` and a pre-trained model is downloadable from [Releases](https://github.com/fay3000/dormouse-detection/releases). 
 
-The model architecture uses transfer learning from a YOLOv8 model pre-trained on the imagenet dataset. 
+The model architecture uses transfer learning from a YOLOv8 model pre-trained on the ImageNet dataset. 
 
 The Dormouse Detection Dataset in this project was created by downloading images from [iNaturalist](https://www.inaturalist.org/) and annotating them with [CVAT (Computer Vision Annotation Tool)](https://github.com/cvat-ai/cvat).
 
@@ -78,7 +78,7 @@ This will load configuration parameters from config.py and start the training pr
 After training completes, the test set predictions are visualised and saved to `/plots`.
 
 
-To view the training performance on tensorboard:
+To view the training performance on Tensorboard:
 ```bash
 tensorboard --logdir=logs/fit 
 ```
